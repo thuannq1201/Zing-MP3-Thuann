@@ -1,0 +1,47 @@
+/* laptop */
+@media (min-width: 1001px) {
+
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1000px) {
+    body{
+        display: none;
+    }
+
+    *{
+        background-color: #37075d;  
+        width: 100%;
+        height: 100%;      
+    }
+
+    *::before{
+        content: "Không có Reponsive cho Tablet nha...!";
+        color: #ccc;
+        display: flex;
+        justify-content: center;
+        margin-top: 30%;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    body{
+        display: none;
+    }
+
+    *{
+        background-color: #37075d;  
+        width: 100%;
+        height: 100%;      
+    }
+
+    *::before{
+        content: "Không có Reponsive cho Mobile nha...!";
+        color: #ccc;
+        display: flex;
+        justify-content: center;
+        margin-top: 50%;
+    }
+
+}
